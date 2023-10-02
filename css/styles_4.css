@@ -1,0 +1,58 @@
+.main-3 {
+    padding: 30px 0 140px 0;
+    background-image: url('../images/arrow.png');
+    background-size: cover;
+    background-position: center;
+    /*height: 500px;*/
+}
+
+.main-title-3 {
+    color: #000000;
+    font-family: Nunito-Medium, sans-serif;
+    font-size: 32px;
+}
+
+.main-description-3 {
+    margin-top: 30px;
+    color: #232628;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 20px;
+}
+
+/*insurance*/
+.insurance {
+    padding: 60px 0 80px 0;
+}
+
+.insurance-title {
+    color: #000000;
+    font-family: Nunito-Medium, sans-serif;
+    font-size: 32px;
+}
+
+.insurance-description {
+    margin-top: 30px;
+    color: #232628;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 20px;
+}
+
+.banks {
+    margin: 60px 0 60px 0;
+}
+
+.banks-icons {
+
+    transition: all .5s ease;
+}
+
+.banks-icons:hover   {
+    transform: scale(1.6);
+    transition: all .8s ease;
+}
+
+
+.insurance-image,
+.finance-image {
+    border-radius: 50px;
+}

@@ -1,0 +1,95 @@
+.about-us {
+    padding: 60px 0 80px 0;
+    background-image: url('../images/arrow.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-title {
+    color: #000;
+    font-family: Nunito-Medium, sans-serif;
+    font-size: 32px;
+}
+
+.about-description {
+    margin-top: 30px;
+    color: #232628;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 20px;
+}
+
+/*.about-image {*/
+/*    max-width: 600px;*/
+/*}*/
+
+/*slider*/
+.slider {
+    padding: 60px 0 80px 0;
+    background: #232628;
+}
+
+.slider-title {
+    margin-bottom: 30px;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.swiper {
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0 auto; /* Центрирование слайдера на странице */
+}
+
+.swiper-slide {
+    background-color: #fff; /* Фоновый цвет карточки */
+    border-radius: 20px; /* Скругление углов карточки */
+    overflow: hidden; /* Обрезание контента, если он выходит за пределы карточки */
+}
+
+.swiper-slide img {
+    width: 100%; /* Ширина изображения 100% от родительского контейнера */
+    height: auto; /* Автоматическая высота для изображения */
+}
+
+.slide-name {
+    margin-top: 20px;
+    font-family: Nunito-Regular, sans-serif, sans-serif;
+    font-size: 18px;
+    color: #003F65;
+}
+
+.review {
+    padding: 20px;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Стили для контейнера пагинации */
+.swiper-pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Стили для индивидуальных точек (если необходимо) */
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    opacity: 0.7; /* Прозрачность неактивных точек */
+    margin: 0 10px; /* Расстояние между точками */
+    cursor: pointer; /* Изменение курсора при наведении */
+}
+
+
+/* Стили для активной точки */
+.swiper-pagination-bullet-active {
+    opacity: 1; /* Активная точка непрозрачная */
+}
+
+:root {
+    --swiper-theme-color: rgba(122, 200, 255, 0.99);;
+}
