@@ -14,7 +14,6 @@ let swiper = new Swiper(".mySwiper", {
     // },
     // loop: true,
 
-
     grabCursor: true,
     breakpoints: {
         1025: {
@@ -40,15 +39,5 @@ let swiper = new Swiper(".mySwiper", {
 });
 
 
-// form
-// слушатель на форму по её айди
-document.addEventListener('submit', function (e) {
 
-    let message = `<b>Сообщение с сайта: </b>
 
-        имя: ${this.name.value}
-        мобильный телефон: ${this.mobile_phone.value}
-        cooбщение: ${this.message.value}
-        наличие карты: ${this.has_card.value}`
-
-})

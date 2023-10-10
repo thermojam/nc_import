@@ -33,6 +33,12 @@
     max-width: 400px;
 }
 
+.search {
+    color: #003F65;
+    font-style: italic;
+    font-size: 12px;
+}
+
 .gallery-title {
     color: #000000;
     font-family: Nunito-Medium, sans-serif;
@@ -41,6 +47,21 @@
 
 .gallery-block {
     margin-top: 30px;
+}
+
+
+.car-icon {
+    cursor: pointer;
+}
+
+.car-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
 }
 
 /*gallery-cars*/

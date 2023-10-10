@@ -1,8 +1,9 @@
 .about-us {
-    padding: 60px 0 80px 0;
+    padding: 60px 0 50px 0;
     background-image: url('../images/arrow.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .about-title {
@@ -16,6 +17,30 @@
     color: #232628;
     font-family: Nunito-Regular, sans-serif;
     font-size: 20px;
+}
+
+.items-title {
+    color: #232628;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 20px;
+}
+
+.item {
+    color: #232628;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 20px;
+}
+
+.about-image {
+    margin-top: 60px;
+}
+
+.description-color {
+    margin-bottom: 80px;
+    color: #003F65;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 /*.about-image {*/
