@@ -1,17 +1,17 @@
-.main-2 {
+.main-gallery {
     padding: 60px 0 80px 0;
     background-image: url('../images/arrow.png');
     background-size: cover;
     background-position: center;
 }
 
-.main-title-2 {
+.main-gallery-title{
     color: #000000;
     font-family: Nunito-Medium, sans-serif;
     font-size: 32px;
 }
 
-.main-description-2 {
+.main-gallery-description {
     margin-top: 30px;
     color: #232628;
     font-family: Nunito-Regular, sans-serif;
@@ -20,7 +20,7 @@
 
 /*gallery-options*/
 .gallery-options {
-    padding: 60px 0 10px 0;
+    padding: 60px 0 60px 0;
 }
 
 .option-link {
@@ -80,7 +80,6 @@
     transition: all .5s ease;
 }
 
-
 .card:hover {
     transform: scale(1.1);
     transition: all .8s ease;
@@ -91,6 +90,23 @@
     color: #003F65;
     font-family: Nunito-Regular, sans-serif;
     font-size: 14px;
+}
+
+.car-icon {
+    cursor: pointer;
+}
+
+.car-list {
+    display: none;
+    background-color: #fff;
+    padding: 10px;
+    max-height: 200px;
+    text-align: center;
+}
+
+.btn-group {
+    right: 130px;
+
 }
 
 .modal-content {
@@ -104,43 +120,42 @@
 }
 
 /* Стили для контейнера с изображением */
-.card .sold-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    background:
-            linear-gradient(
-                    rgba(3, 48, 70, 0.96),
-                    transparent
-            ),
-            linear-gradient(
-                    90deg,
-                    rgba(1, 21, 31, 0.44),
-                    transparent
-            ),
-            linear-gradient(
-                    -90deg,
-                    rgba(211, 211, 211, 0.65),
-                    transparent
-            );
+/*.card .sold-overlay {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    border-radius: 20px;*/
+/*    background:*/
+/*            linear-gradient(*/
+/*                    rgba(3, 48, 70, 0.96),*/
+/*                    transparent*/
+/*            ),*/
+/*            linear-gradient(*/
+/*                    90deg,*/
+/*                    rgba(1, 21, 31, 0.44),*/
+/*                    transparent*/
+/*            ),*/
+/*            linear-gradient(*/
+/*                    -90deg,*/
+/*                    rgba(211, 211, 211, 0.65),*/
+/*                    transparent*/
+/*            );*/
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family:Evolventa-BoldOblique, sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-}
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    color: white;*/
+/*    font-family:Evolventa-BoldOblique, sans-serif;*/
+/*    font-size: 28px;*/
+/*    font-weight: bold;*/
+/*    text-align: center;*/
+/*}*/
 
 /* Стили для текста "Автомобиль продан" */
-.card .sold-text {
-    text-transform: uppercase;
-    /* Дополнительные стили, по вашему выбору */
-}
+/*.card .sold-text {*/
+/*    text-transform: uppercase;*/
+/*}*/
 
 
