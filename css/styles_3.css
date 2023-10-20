@@ -105,8 +105,16 @@
 }
 
 .btn-group {
-    right: 130px;
+    right: 110px;
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 10px;
+}
 
+label.btn {
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.51);
 }
 
 .modal-content {
@@ -117,6 +125,7 @@
     text-align: center;
     background: rgba(0, 0, 0, 0.29);
     color: #FFFFFF;
+    padding-top: 20px;
 }
 
 /* Стили для контейнера с изображением */
