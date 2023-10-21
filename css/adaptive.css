@@ -1,3 +1,9 @@
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .navbar-toggler {
+        color: #003F65;
+    }
+}
+
 /*1024 - 1229*/
 @media screen  and (max-width: 1229px) {
     .container {
@@ -9,9 +15,9 @@
     }
 }
 
-@media screen and (max-width: 900px) {
-    .main {
-
+@media screen and (max-width: 767px) {
+    .offer-title {
+        margin-top: 60px;
     }
 }
 
