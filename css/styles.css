@@ -27,8 +27,13 @@
 }
 
 /*menu*/
+.logo {
+    max-width: 220px;
+    margin-right: 50px;
+}
+
 .header {
-    padding: 30px 0 30px 0;
+    padding: 30px 0 35px 0;
 }
 
 .container {
@@ -52,7 +57,7 @@
     background-image: url('../images/main.png');
     background-size: cover;
     background-position: center;
-    padding: 140px 0 140px 0;
+    padding: 140px 0 170px 0;
 }
 
 .main-title {
