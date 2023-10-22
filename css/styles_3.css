@@ -20,7 +20,7 @@
 
 /*gallery-options*/
 .gallery-options {
-    padding: 60px 0 60px 0;
+    padding: 30px 0 60px 0;
 }
 
 .option-link {
@@ -86,10 +86,9 @@
 }
 
 .card-title {
-    margin-top: 0;
-    color: #003F65;
+    color: #232628;
     font-family: Nunito-Regular, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .car-icon {
@@ -114,7 +113,7 @@ label.btn {
     font-family: Nunito-Regular, sans-serif;
     font-size: 14px;
     font-weight: bolder;
-    color: rgba(0, 0, 0, 0.51);
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .modal-content {
@@ -123,7 +122,7 @@ label.btn {
     font-family: Nunito-Regular, sans-serif;
     font-size: 20px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.29);
+    background: rgba(0, 0, 0, 0.38);
     color: #FFFFFF;
     padding-top: 20px;
 }

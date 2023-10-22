@@ -147,20 +147,19 @@
                 <form class="" id="tg"
                       target="_blank"
                       action="https://formsubmit.co/menskiyn@bk.ru"
-                      method="POST" >
+                      method="POST">
+<!--                    ceo@ncimport.ru-->
 
                     <div class="mb-3">
-                        <input type="text" class="form-control choose-input" placeholder="Ваше имя" id="name"
-                               name="name">
-
+                        <input type="text" class="form-control choose-input" required placeholder="Ваше имя" id="name" name="name">
                     </div>
 
                     <div class="mb-3">
-                        <input type="tel" class="form-control choose-input" placeholder="Ваш номер телефона" id="mobile_phone" name="mobile_phone">
+                        <input type="tel" class="form-control choose-input" required placeholder="Ваш номер телефона" id="mobile_phone" name="mobile_phone">
                     </div>
 
                     <div class="mb-3">
-                        <textarea class="form-control choose-input" rows="1" placeholder="Сообщение" id="message" name="message"></textarea>
+                        <textarea class="form-control choose-input" required rows="1" placeholder="Сообщение" id="message" name="message"></textarea>
                     </div>
 
                     <div class="choose-btn text-center">
@@ -299,8 +298,9 @@
     </div>
 </footer>
 
-
 <script src="js/bootstrap.min.js"></script>
+
+<script src="js/validation.js"></script>
 
 </body>
 </html>

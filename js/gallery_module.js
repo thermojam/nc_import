@@ -1,4 +1,3 @@
-//gallery
 // Получаем все элементы с классом "car"
 const cars = document.querySelectorAll('.car');
 
@@ -34,9 +33,3 @@ carIcon.addEventListener('click', () => {
         carList.style.display = 'none';
     }
 });
-
-
-
-
-
-

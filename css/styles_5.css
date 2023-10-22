@@ -88,5 +88,8 @@
     width: 245px;
     height: 60px;
     cursor: pointer;
+}
+
+.btn:hover {
     box-shadow: 0 0 40px -5px #8D8D8D;
 }

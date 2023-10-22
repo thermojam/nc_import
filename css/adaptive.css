@@ -1,8 +1,8 @@
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    .navbar-toggler {
-        color: #003F65;
-    }
-}
+/*@media screen and (-webkit-min-device-pixel-ratio: 0) {*/
+/*    .navbar-toggler {*/
+/*        color: #003F65;*/
+/*    }*/
+/*}*/
 
 /*1024 - 1229*/
 @media screen  and (max-width: 1229px) {
