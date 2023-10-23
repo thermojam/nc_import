@@ -125,9 +125,6 @@ label.btn {
     background: rgba(0, 0, 0, 0.38);
     color: #FFFFFF;
     padding-top: 20px;
-}
-
-.modal-dialog {
     height: 100vh;
 }
 
