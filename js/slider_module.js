@@ -8,11 +8,11 @@
             slideShadows: false,
         },
 
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false,
-        // },
-        // loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        loop: true,
 
         grabCursor: true,
         breakpoints: {
@@ -28,9 +28,6 @@
             320: {
                 slidesPerView: 1,
             },
-            200: {
-                slidesPerView: 1,
-            }
         },
         pagination: {
             el: '.swiper-pagination', // Селектор контейнера для пагинации
