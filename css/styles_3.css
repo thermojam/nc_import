@@ -127,6 +127,11 @@ label.btn {
     padding-top: 20px;
 }
 
+.modal-dialog {
+    height: 100vh;
+}
+
+
  /*Стили для контейнера с изображением проданого авто*/
 .card .sold-overlay {
     position: absolute;
