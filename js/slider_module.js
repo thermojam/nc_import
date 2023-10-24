@@ -2,11 +2,11 @@
     let swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
         spaceBetween: 60,
-        effect: '',
-        coverflowEffect: {
-            rotate: 40,
-            slideShadows: false,
-        },
+        // effect: '',
+        // coverflowEffect: {
+        //     rotate: 40,
+        //     slideShadows: false,
+        // },
 
         autoplay: {
             delay: 3000,
