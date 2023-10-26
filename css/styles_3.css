@@ -132,11 +132,6 @@ label.btn {
     justify-content: center;
 }
 
-.modal .fade {
-    height: 100vh;
-}
-
-
 /*Стили для контейнера с изображением проданого авто*/
 .card .sold-overlay {
     position: absolute;
