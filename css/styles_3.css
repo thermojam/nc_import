@@ -1,5 +1,5 @@
 .main-gallery {
-    padding: 60px 0 80px 0;
+    padding: 60px 0 250px 0;
     background-image: url('../images/arrow.png');
     background-size: cover;
     background-position: center;
@@ -105,7 +105,7 @@
 }
 
 .btn-group {
-    right: 110px;
+    right: 345px;
     font-family: Nunito-Regular, sans-serif;
     font-size: 10px;
 }
@@ -124,7 +124,7 @@ label.btn {
     font-size: 20px;
     background: rgba(0, 0, 0, 0.38);
     color: #FFFFFF;
-    padding: 30px;
+    padding-top: 50px;
 }
 
 .modal-wrapper {
