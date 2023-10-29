@@ -2,11 +2,6 @@
     let swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
         spaceBetween: 60,
-        // effect: '',
-        // coverflowEffect: {
-        //     rotate: 40,
-        //     slideShadows: false,
-        // },
 
         autoplay: {
             delay: 3000,
@@ -28,9 +23,28 @@
             320: {
                 slidesPerView: 1,
             },
+            200: {
+                slidesPerView: 1,
+            },
         },
         pagination: {
             el: '.swiper-pagination', // Селектор контейнера для пагинации
             clickable: true, // Сделать пагинацию кликабельной
         },
     });
+
+//click slide links
+document.querySelectorAll('.swiper-slide').forEach(slide => {
+    const overlay = slide.querySelector('.overlay');
+    const link = overlay.querySelector('a');
+
+    overlay.addEventListener('click', () => {
+        const url = link.getAttribute('href');
+        if (url) {
+            window.open(url, '_blank');
+        }
+    });
+});
+
+
+

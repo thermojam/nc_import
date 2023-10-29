@@ -1,13 +1,21 @@
 /*1024 - 1229*/
-@media screen  and (max-width: 1229px) {
-    .container {
-
+@media screen  and (max-width: 2990px) {
+    .review-icon {
+        display: none;
     }
 }
 
 @media screen and (max-width: 767px) {
     .offer-title {
         margin-top: 60px;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    .review-icon {
+        display: block;
     }
 }
 

@@ -165,5 +165,17 @@ label.btn {
     text-align: center;
 }
 
+.btn-scroll-top {
+    display: none; /* Изначально скрываем кнопку */
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 99;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius:50%;
+}
+
 
 

@@ -33,3 +33,30 @@ carIcon.addEventListener('click', () => {
         carList.style.display = 'none';
     }
 });
+
+
+//up_Btn
+const scrollToTopButton = document.getElementById('scrollToTopButton');
+const footer = document.getElementById('myFooter');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > window.innerHeight) {
+        scrollToTopButton.style.display = 'block';
+    } else {
+        scrollToTopButton.style.display = 'none';
+    }
+
+    // Скрыть кнопку при прокрутке до футера
+    if (window.scrollY + window.innerHeight >= footer.offsetTop) {
+        scrollToTopButton.style.display = 'none';
+    }
+});
+
+scrollToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+

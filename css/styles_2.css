@@ -1,5 +1,5 @@
 .about-us {
-    padding: 60px 0 250px 0;
+    padding: 60px 0 150px 0;
     background-image: url('../images/arrow.png');
     background-size: cover;
     background-position: center;
@@ -75,11 +75,11 @@
 
 .swiper-slide img {
     width: 100%; /* Ширина изображения 100% от родительского контейнера */
-    height: auto; /* Автоматическая высота для изображения */
+    height: 100%; /* Автоматическая высота для изображения */
 }
 
 .slide-name {
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: Nunito-Regular, sans-serif, sans-serif;
     font-size: 18px;
     color: #003F65;
@@ -89,8 +89,50 @@
     padding: 5px;
     font-family: Nunito-Regular, sans-serif;
     font-size: 14px;
-    color: #888;
 }
+
+.review-text {
+    font-family: Nunito-Regular, sans-serif;
+    color: #003F65;
+    font-size: 12px;
+}
+
+.review-icon  {
+    font-family: Nunito-Regular, sans-serif;
+    color: #003F65;
+    font-size: 12px;
+}
+
+
+
+/*TEST links*/
+.swiper-slide {
+    position: relative;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.swiper-slide:hover .overlay {
+    opacity: 1;
+}
+
+
+
+
 
 /* Стили для контейнера пагинации */
 .swiper-pagination {

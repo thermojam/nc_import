@@ -1,5 +1,5 @@
 .main-contact {
-    padding: 30px 0 250px 0;
+    padding: 30px 0 280px 0;
     background-image: url('../images/arrow.png');
     background-size: cover;
     background-position: center;
@@ -39,9 +39,15 @@
     font-size: 20px;
 }
 
+.contact-street {
+    color: rgba(84, 84, 84, 0.78);
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 16px;
+}
+
 /*choose*/
 .choose {
-    padding: 36px 0 80px 0;
+    padding: 30px 0 80px 0;
     background: #F4F4F4;
 }
 
@@ -52,6 +58,7 @@
 }
 
 .choose-text {
+    margin-top: 30px;
     color: #232628;
     font-family: Nunito-Regular, sans-serif;
     font-size: 20px;

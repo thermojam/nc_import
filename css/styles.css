@@ -54,13 +54,13 @@
 
 /*main*/
 :root {
-    --bg-offset-x: 10px;
+    --bg-offset-x: 0px;
     --bg-offset-y: 5px;
 }
 
 .main {
     background-image: url('../images/main.png');
-    background-position: calc(80% + var(--bg-offset-x)) calc(5% + var(--bg-offset-y));
+    background-position: calc(50% - var(--bg-offset-x)) calc(50% + var(--bg-offset-y));
     background-size: cover;
     /*background-position: center;*/
     background-repeat: no-repeat ;
@@ -185,7 +185,7 @@
 /*footer*/
 .footer {
     background: #232628;
-    padding: 30px 0 30px 0;
+    padding: 60px 0 30px 0;
 }
 
 .socials {
@@ -193,17 +193,17 @@
 }
 
 .list-unstyled {
-    max-width: 230px;
+    max-width: 270px;
     color: #FFFFFF;
     font-family: Nunito-Regular, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
 }
+
 
 .list-unstyled ul li a {
     color: #FFFFFF;
     max-width: 230px;
     font-family: Nunito-Regular, sans-serif;
-    font-size: 18px;
 }
 
 .social-icon {
