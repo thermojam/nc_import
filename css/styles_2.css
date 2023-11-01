@@ -1,5 +1,5 @@
 .about-us {
-    padding: 60px 0 150px 0;
+    padding: 60px 0 40px 0;
     background-image: url('../images/arrow.png');
     background-size: cover;
     background-position: center;
@@ -32,20 +32,21 @@
 }
 
 .about-image {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
-.description-color {
-    margin-bottom: 80px;
+.description-color, .items-title {
+    margin-bottom: 30px;
     color: #003F65;
     font-family: Nunito-Regular, sans-serif;
     font-size: 20px;
     font-weight: bolder;
 }
 
-/*.about-image {*/
-/*    max-width: 600px;*/
-/*}*/
+/*aside*/
+.aside {
+    padding-bottom: 60px;
+}
 
 /*slider*/
 .slider {
@@ -97,19 +98,10 @@
     font-size: 12px;
 }
 
-.review-icon  {
-    font-family: Nunito-Regular, sans-serif;
-    color: #003F65;
-    font-size: 12px;
-}
-
-
-
 /*TEST links*/
 .swiper-slide {
     position: relative;
 }
-
 
 .overlay {
     position: absolute;
@@ -130,10 +122,6 @@
     opacity: 1;
 }
 
-
-
-
-
 /* Стили для контейнера пагинации */
 .swiper-pagination {
     position: relative;
@@ -142,7 +130,6 @@
     margin-top: 30px;
 }
 
-/* Стили для индивидуальных точек (если необходимо) */
 .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
@@ -151,8 +138,6 @@
     cursor: pointer; /* Изменение курсора при наведении */
 }
 
-
-/* Стили для активной точки */
 .swiper-pagination-bullet-active {
     opacity: 1; /* Активная точка непрозрачная */
 }

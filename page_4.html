@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styles_4.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/adaptive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -16,10 +17,11 @@
         <div class="container">
             <!-- Логотип -->
             <div class="logo">
-                <a class="navbar-brand" href="#"><img src="images/Logo.svg"  class="img-fluid" alt="Логотип"></a>
+                <a class="navbar-brand" href="#"><img src="images/Logo.svg" class="img-fluid" alt="Логотип"></a>
             </div>
             <!-- Кнопка для мобильных устройств (показывается только на маленьких экранах) -->
-            <button class="navbar-toggler text-primary-emphasis" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler text-primary-emphasis" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -50,18 +52,19 @@
 
 <section class="main-insurance">
     <div class="container">
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center justify-content-between">
             <div class="col-md-6">
-                <!-- Заголовок -->
-                <h2 class="main-insurance-title">Дополнительные финансовые услуги</h2>
-                <!-- Описание -->
-                <p class="main-insurance-description">NC Import при необходимости окажет содействие в получении дополнительного
+                <div>
+                    <h2 class="main-insurance-title">Дополнительные финансовые услуги</h2>
+                </div>
+
+                <p class="main-insurance-description">NC Import при необходимости окажет содействие в получении
+                    дополнительного
                     финансирования, а также во всех видах автострахования. </p>
 
             </div>
-            <div class="col-md-6">
-                <!-- Изображение -->
-                <img src="images/finance.png" alt="Изображение" class="finance-image float-md-end img-fluid">
+            <div class="col-md-5 text-sm-center">
+                <img src="images/finance.png" alt="Изображение" class="finance-image img-fluid">
             </div>
         </div>
     </div>
@@ -69,32 +72,37 @@
 
 <section class="insurance">
     <div class="container">
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center justify-content-between">
             <div class="col-md-6">
-                <!-- Заголовок -->
-                <h2 class="insurance-title">Дополнительное финансирование</h2>
-                <!-- Параграф -->
+                <div>
+                    <h2 class="insurance-title">Дополнительное финансирование</h2>
+                </div>
                 <p class="insurance-description">NC Import при необходимости окажет содействие в получении
                     дополнительного финансирования, а также во
                     всех видах автострахования.</p>
-                <!-- Иконки (5 иконок в строку) -->
+
                 <div class="banks d-flex flex-wrap justify-content-between">
-                    <i class="banks-icons bi bi-star"><img src="images/banks/bank_1.svg" class="img-fluid" alt="сбербанк"></i>
+                    <i class="banks-icons bi bi-star"><img src="images/banks/bank_1.svg" class="img-fluid"
+                                                           alt="сбербанк"></i>
                     <i class="banks-icons bi bi-heart"><img src="images/banks/bank_2.svg" class="img-fluid" alt="альфа"></i>
-                    <i class="banks-icons bi bi-chat"><img src="images/banks/bank_3.svg" class="img-fluid" alt="сельхоз"></i>
-                    <i class="banks-icons bi bi-share"><img src="images/banks/bank_4.svg" class="img-fluid" alt="втб"></i>
-                    <i class="banks-icons bi bi-camera"><img src="images/banks/bank_5.svg" class="img-fluid" alt="ренесанс"></i>
+                    <i class="banks-icons bi bi-chat"><img src="images/banks/bank_3.svg" class="img-fluid"
+                                                           alt="сельхоз"></i>
+                    <i class="banks-icons bi bi-share"><img src="images/banks/bank_4.svg" class="img-fluid"
+                                                            alt="втб"></i>
+                    <i class="banks-icons bi bi-camera"><img src="images/banks/bank_5.svg" class="img-fluid"
+                                                             alt="ренесанс"></i>
                 </div>
-                <!-- Заголовок -->
-                <h2 class="insurance-title">Автострахование</h2>
-                <!-- Параграф -->
+
+                <div>
+                    <h2 class="insurance-title">Автострахование</h2>
+                </div>
+
                 <p class="insurance-description">NC Import заботится о Вас и Вашем автомобиле.
                     В связи с этим мы и наши партнеры на лучших условиях предлагаем Вам все виды услуг автострахования:
                     ОСАГО, ДСАГО, КАСКО.</p>
             </div>
-            <div class="col-md-6">
-                <!-- Картинка -->
-                <img src="images/success.png" alt="Картинка" class="insurance-image float-md-end img-fluid">
+            <div class="col-md-5 text-sm-center">
+                <img src="images/success.png" alt="Картинка" class="insurance-image  img-fluid">
             </div>
         </div>
     </div>
@@ -104,8 +112,8 @@
 <footer class="footer">
     <div class="container">
         <div class="row d-flex justify-content-between align-items-center">
-            <!-- Первый столбец (ссылки на страницы) -->
-            <div class="col-md-3 col-sm mx-auto">
+
+            <div class="footer-info col-md-3 col-sm mx-auto">
                 <ul class="list-unstyled">
                     <li><a class="text-decoration-none text-white" href="index.html">Главная</a></li>
                     <li><a class="text-decoration-none text-white" href="page_2.html">О нас</a></li>
@@ -114,10 +122,11 @@
                     <li><a class="text-decoration-none text-white" href="page_5.html">Контакты</a></li>
                 </ul>
             </div>
-            <!-- Второй столбец (адрес, телефон, почта) -->
-            <div class="col-md-3 col-sm mx-auto">
+
+            <div class="footer-info col-md-3 col-sm mx-auto">
                 <ul class="list-unstyled">
-                    <li><a class="text-decoration-none text-white" href="page_5.html">Москва, Большая Садовая ул., 5, корп. 1
+                    <li><a class="text-decoration-none text-white" href="page_5.html">Москва, Большая Садовая ул., 5,
+                        корп. 1
                         <br>
                         Санкт-Петербург, Аптекарская набережная, д. 18
                         <br>
@@ -129,7 +138,6 @@
                 </ul>
             </div>
 
-            <!-- Третий столбец (социальные сети) -->
             <div class="socials col-md-6 d-flex flex-column align-items-center col-sm mx-auto">
                 <div class="d-flex flex-wrap justify-content-center">
                     <div class="col-6 col-md-6 mb-2 col-sm mx-auto text-center">
@@ -162,23 +170,26 @@
                     </div>
                     <div class="col-6 col-md-6 mb-2  col-sm mx-auto text-center">
                         <a href="https://vk.com/ncimport" target="_blank" class="social-icon">
-                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M25 0C11.1927 0 0 11.1927 0 25C0 38.8073 11.1927 50 25 50C38.8073 50 50 38.8073 50 25C50 11.1927 38.8073 0 25 0ZM34.6146 28.2057C34.6146 28.2057 36.8255 30.388 37.3698 31.401C37.3854 31.4219 37.3932 31.4427 37.3984 31.4531C37.6198 31.8255 37.6719 32.1146 37.5625 32.3307C37.3802 32.6901 36.7552 32.8672 36.5417 32.8828H32.6354C32.3646 32.8828 31.7969 32.8125 31.1094 32.3385C30.5807 31.9687 30.0599 31.362 29.5521 30.7708C28.7943 29.8906 28.138 29.1302 27.4766 29.1302C27.3926 29.1301 27.309 29.1432 27.2292 29.1693C26.7292 29.3307 26.0885 30.0443 26.0885 31.9453C26.0885 32.5391 25.6198 32.8802 25.2891 32.8802H23.5C22.8906 32.8802 19.7161 32.6667 16.9036 29.7005C13.4609 26.0677 10.362 18.7812 10.3359 18.7135C10.1406 18.2422 10.5443 17.9896 10.9844 17.9896H14.9297C15.4557 17.9896 15.6276 18.3099 15.7474 18.5937C15.888 18.9245 16.4036 20.2396 17.25 21.7187C18.6224 24.1302 19.4635 25.1094 20.138 25.1094C20.2645 25.1079 20.3887 25.0757 20.5 25.0156C21.3802 24.526 21.2161 21.388 21.1771 20.737C21.1771 20.6146 21.1745 19.3333 20.724 18.7187C20.401 18.2734 19.8516 18.1042 19.5182 18.0417C19.6531 17.8555 19.8309 17.7045 20.0365 17.6016C20.6406 17.2995 21.7292 17.2552 22.8099 17.2552H23.4115C24.5833 17.2708 24.8854 17.3464 25.3099 17.4531C26.1693 17.6589 26.1875 18.2135 26.112 20.112C26.0885 20.651 26.0651 21.2604 26.0651 21.9792C26.0651 22.1354 26.0573 22.3021 26.0573 22.4792C26.0312 23.4453 26 24.5417 26.6823 24.9922C26.7713 25.048 26.8741 25.0778 26.9792 25.0781C27.2161 25.0781 27.9297 25.0781 29.862 21.763C30.4579 20.696 30.9758 19.5872 31.4115 18.4453C31.4505 18.3776 31.5651 18.1693 31.7005 18.0885C31.8005 18.0376 31.9113 18.0117 32.0234 18.013H36.6615C37.1667 18.013 37.513 18.0885 37.5781 18.2839C37.6927 18.5937 37.5573 19.5391 35.4401 22.4062L34.4948 23.6536C32.5755 26.1693 32.5755 26.2969 34.6146 28.2057Z" fill="#297FFF"/>
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 0C11.1927 0 0 11.1927 0 25C0 38.8073 11.1927 50 25 50C38.8073 50 50 38.8073 50 25C50 11.1927 38.8073 0 25 0ZM34.6146 28.2057C34.6146 28.2057 36.8255 30.388 37.3698 31.401C37.3854 31.4219 37.3932 31.4427 37.3984 31.4531C37.6198 31.8255 37.6719 32.1146 37.5625 32.3307C37.3802 32.6901 36.7552 32.8672 36.5417 32.8828H32.6354C32.3646 32.8828 31.7969 32.8125 31.1094 32.3385C30.5807 31.9687 30.0599 31.362 29.5521 30.7708C28.7943 29.8906 28.138 29.1302 27.4766 29.1302C27.3926 29.1301 27.309 29.1432 27.2292 29.1693C26.7292 29.3307 26.0885 30.0443 26.0885 31.9453C26.0885 32.5391 25.6198 32.8802 25.2891 32.8802H23.5C22.8906 32.8802 19.7161 32.6667 16.9036 29.7005C13.4609 26.0677 10.362 18.7812 10.3359 18.7135C10.1406 18.2422 10.5443 17.9896 10.9844 17.9896H14.9297C15.4557 17.9896 15.6276 18.3099 15.7474 18.5937C15.888 18.9245 16.4036 20.2396 17.25 21.7187C18.6224 24.1302 19.4635 25.1094 20.138 25.1094C20.2645 25.1079 20.3887 25.0757 20.5 25.0156C21.3802 24.526 21.2161 21.388 21.1771 20.737C21.1771 20.6146 21.1745 19.3333 20.724 18.7187C20.401 18.2734 19.8516 18.1042 19.5182 18.0417C19.6531 17.8555 19.8309 17.7045 20.0365 17.6016C20.6406 17.2995 21.7292 17.2552 22.8099 17.2552H23.4115C24.5833 17.2708 24.8854 17.3464 25.3099 17.4531C26.1693 17.6589 26.1875 18.2135 26.112 20.112C26.0885 20.651 26.0651 21.2604 26.0651 21.9792C26.0651 22.1354 26.0573 22.3021 26.0573 22.4792C26.0312 23.4453 26 24.5417 26.6823 24.9922C26.7713 25.048 26.8741 25.0778 26.9792 25.0781C27.2161 25.0781 27.9297 25.0781 29.862 21.763C30.4579 20.696 30.9758 19.5872 31.4115 18.4453C31.4505 18.3776 31.5651 18.1693 31.7005 18.0885C31.8005 18.0376 31.9113 18.0117 32.0234 18.013H36.6615C37.1667 18.013 37.513 18.0885 37.5781 18.2839C37.6927 18.5937 37.5573 19.5391 35.4401 22.4062L34.4948 23.6536C32.5755 26.1693 32.5755 26.2969 34.6146 28.2057Z"
+                                      fill="#297FFF"/>
                             </svg>
                         </a>
                     </div>
                     <div class="col-6 col-md-6 mb-2 col-sm mx-auto text-center">
                         <a href="mailto:ceo@ncimport.ru" target="_blank" class="social-icon">
-                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="25" cy="25" r="25" fill="#003F65"/>
-                                <path d="M42.5 18.5963V34.0461C42.5 36.7171 40.3355 38.8816 37.6645 38.8816H12.3355C11.0531 38.8816 9.82313 38.3721 8.91629 37.4653C8.00946 36.5584 7.5 35.3285 7.5 34.0461V18.5963L24.4455 27.9174C24.7909 28.1071 25.21 28.1071 25.5545 27.9174L42.5 18.5963ZM37.6645 11.25C38.9268 11.2501 40.139 11.7438 41.0421 12.6257C41.9453 13.5075 42.4679 14.7076 42.4982 15.9695L25 25.5945L7.50184 15.9686L7.50368 15.8857C7.55527 14.6388 8.0869 13.4601 8.98742 12.5962C9.88793 11.7322 11.0876 11.2499 12.3355 11.25H37.6645Z" fill="white"/>
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25" r="25" fill="#ffffff"/>
+                                <path d="M42.5 18.5963V34.0461C42.5 36.7171 40.3355 38.8816 37.6645 38.8816H12.3355C11.0531 38.8816 9.82313 38.3721 8.91629 37.4653C8.00946 36.5584 7.5 35.3285 7.5 34.0461V18.5963L24.4455 27.9174C24.7909 28.1071 25.21 28.1071 25.5545 27.9174L42.5 18.5963ZM37.6645 11.25C38.9268 11.2501 40.139 11.7438 41.0421 12.6257C41.9453 13.5075 42.4679 14.7076 42.4982 15.9695L25 25.5945L7.50184 15.9686L7.50368 15.8857C7.55527 14.6388 8.0869 13.4601 8.98742 12.5962C9.88793 11.7322 11.0876 11.2499 12.3355 11.25H37.6645Z"
+                                      fill="#04649E"/>
                             </svg>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <!-- Четвертый столбец (QR-код) -->
             <div class="col-md-3 col-sm mx-auto text-center">
                 <svg class="qr-code img-fluid" width="150" height="150" viewBox="0 0 200 200" fill="none"
                      xmlns="http://www.w3.org/2000/svg">

@@ -1,14 +1,122 @@
-/*1024 - 1229*/
-@media screen  and (max-width: 2990px) {
+@media screen  and (max-width: 2900px) {
+    /*ABOUT US*/
     .review-icon {
         display: none;
     }
 }
 
-@media screen and (max-width: 767px) {
-    .offer-title {
-        margin-top: 60px;
+/*1200 - 1399 (XL)*/
+@media screen  and (max-width: 1399px) {
+    .main-gallery-title {
+        font-size: 30px;
     }
+}
+
+
+/*992 - 1099 (LG)*/
+@media screen  and (max-width: 1099px) {
+    .main-gallery-title {
+        font-size: 26px;
+    }
+
+    /*INSURANCE*/
+    .main-insurance-title {
+        font-size: 26px;
+    }
+
+    .insurance-title {
+        font-size: 26px;
+    }
+}
+
+/*768 - 991 (MD)*/
+@media screen  and (max-width: 991px) {
+    /*MAIN*/
+    .main {
+        /*background-image: url('../images/main.png');*/
+        background-position: calc(95% - var(--bg-offset-x)) calc(-10% - var(--bg-offset-y));
+    }
+
+    .main-info {
+        position: relative;
+        top: -250px;
+    }
+
+    .fresh-title, .offer-title, .order-title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .order-action {
+        display: flex;
+        justify-content: center;
+    }
+
+    .offer-info {
+        margin-bottom: 30px;
+    }
+
+    .order-info {
+        margin-top: 50px;
+    }
+
+    /*ABOUT US*/
+    .about-title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .slider-title {
+        font-size: 26px;
+    }
+
+    /*GALLERY*/
+    .main-gallery-title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .gallery-title {
+        font-size: 26px;
+    }
+
+    /*INSURANCE*/
+    .main-insurance-title {
+        font-size: 22px;
+    }
+
+    .insurance-title {
+        font-size: 22px;
+    }
+
+
+}
+
+/*576 - 767 (SM)*/
+@media screen  and (max-width: 767px) {
+    /*MAIN*/
+    .main {
+        background-position: calc(85% - var(--bg-offset-x)) calc(-10% - var(--bg-offset-y));
+    }
+
+    /*ABOUT US*/
+    /*GALLERY*/
+    .main-gallery {
+        background-position: calc(55% - var(--bg-offset-x)) calc(90% + var(--bg-offset-y));
+
+    }
+
+    /*INSURANCE*/
+    .main-insurance-title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .insurance-title {
+        font-size: 22px;
+        text-align: center;
+    }
+
 
     .overlay {
         display: none;
@@ -17,11 +125,140 @@
     .review-icon {
         display: block;
     }
+
+    .option-text-search {
+        display: none;
+    }
+
+
 }
 
-@media screen and (max-width: 500px) {
-    .modal-content {
-        height: 100vh;
+/*424 - 576 (<SM)*/
+@media screen  and (max-width: 575px) {
+    /*MAIN*/
+    :root {
+        --bg-offset-x: -80px;
+        --bg-offset-y: 0px;
     }
+
+    .main {
+        background-position: calc(90% - var(--bg-offset-x)) calc(40% - var(--bg-offset-y));
+    }
+
+    .main-info {
+        text-align: center;
+    }
+
+    .main-title {
+        font-size: 40px;
+    }
+
+    .main-description {
+        font-size: 20px;
+    }
+
+    .fresh-title, .offer-title, .order-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .offer-description, .order-description {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*ABOUT US*/
+    .about-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about-description {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*GALLERY*/
+    .main-gallery-title {
+        font-size: 24px;
+    }
+
+    .main-gallery-description {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .gallery-title {
+        font-size: 24px;
+    }
+
+    .option-text {
+        font-size: 10px;
+    }
+
+    /*INSURANCE*/
+    .main-insurance-description {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .finance-image {
+        margin-top: 30px;
+    }
+
+    .insurance-image {
+        margin-top: 30px;
+    }
+
+    .main-description {
+        text-align: center;
+
+    }
+
+    .insurance-description {
+        text-align: center;
+    }
+
+    .main-insurance {
+        background-position: calc(55% - var(--bg-offset-x)) calc(40% - var(--bg-offset-y));
+    }
+
+
+    /*footer*/
+    .footer-info {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .socials {
+        margin-bottom: 30px;
+
+    }
+
+    .qr-code {
+        margin-bottom: 30px;
+
+    }
+
+}
+
+
+/*375 - 424 (ES)*/
+@media screen  and (max-width: 424px) {
+    /*MAIN*/
+    .footer {
+        text-align: center;
+    }
+
+    /*ABOUT US*/
+
+}
+
+
+/*320 - 374(XS)*/
+@media screen  and (max-width: 374px) {
+
 }
 

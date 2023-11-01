@@ -1,8 +1,13 @@
+:root {
+    --bg-offset-x: 0px;
+    --bg-offset-y: 0px;
+}
+
 .main-gallery {
-    padding: 60px 0 250px 0;
+    padding: 60px 0 30px 0;
     background-image: url('../images/arrow.png');
+    background-position: calc(50% - var(--bg-offset-x)) calc(90% + var(--bg-offset-y));
     background-size: cover;
-    background-position: center;
 }
 
 .main-gallery-title {
@@ -20,7 +25,7 @@
 
 /*gallery-options*/
 .gallery-options {
-    padding: 30px 0 60px 0;
+    padding: 30px 0 120px 0;
 }
 
 .option-link {
@@ -34,6 +39,12 @@
     max-width: 400px;
 }
 
+.option-text-search {
+    color: #003F65;
+    font-style: italic;
+    font-size: 12px
+}
+
 .search {
     color: #003F65;
     font-style: italic;
@@ -41,6 +52,7 @@
 }
 
 .gallery-title {
+    margin-bottom: 30px;
     color: #000000;
     font-family: Nunito-Medium, sans-serif;
     font-size: 32px;
@@ -97,15 +109,15 @@
 }
 
 .car-list {
+    margin-top: 15px;
     display: none;
     background-color: #fff;
-    padding: 10px;
+    padding: 5px;
     max-height: 200px;
     text-align: center;
 }
 
 .btn-group {
-    right: 345px;
     font-family: Nunito-Regular, sans-serif;
     font-size: 10px;
 }
@@ -114,7 +126,7 @@ label.btn {
     font-family: Nunito-Regular, sans-serif;
     font-size: 14px;
     font-weight: bolder;
-    color: rgba(0, 0, 0, 0.75);
+    color: #003F65;
 }
 
 .modal-content {

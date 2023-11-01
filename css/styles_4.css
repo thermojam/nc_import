@@ -1,8 +1,13 @@
+:root {
+    --bg-offset-x: 0px;
+    --bg-offset-y: 0px;
+}
+
 .main-insurance {
-    padding: 30px 0 340px 0;
+    padding: 60px 0 180px 0;
     background-image: url('../images/arrow.png');
+    background-position: calc(50% - var(--bg-offset-x)) calc(90% + var(--bg-offset-y));
     background-size: cover;
-    background-position: center;
 }
 
 .main-insurance-title {
@@ -37,7 +42,7 @@
 }
 
 .banks {
-    margin: 60px 0 60px 0;
+    margin: 60px 0 80px 0;
     cursor: pointer;
 }
 

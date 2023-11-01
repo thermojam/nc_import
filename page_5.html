@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styles_5.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/adaptive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -51,11 +52,11 @@
 
 <section class="main-contact">
     <div class="container">
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center justify-content-between">
             <div class="col-md-6">
-                <!-- Заголовок -->
-                <h2 class="main-contact-title">Свяжитесь с нами сейчас</h2>
-                <!-- Описание -->
+                <div>
+                    <h2 class="main-contact-title">Свяжитесь с нами сейчас</h2>
+                </div>
                 <p class="main-contact-description">Мы готовы ответить на Ваши вопросы по телефону в любое время в любой
                     день
                     недели.
@@ -65,9 +66,8 @@
                 </p>
 
             </div>
-            <div class="col-md-6">
-                <!-- Изображение -->
-                <img src="images/contact_us.png" alt="Изображение" class="finance-image float-md-end img-fluid">
+            <div class="col-md-5">
+                <img src="images/contact_us.png" alt="Изображение" class="finance-image img-fluid">
             </div>
         </div>
     </div>
@@ -75,12 +75,14 @@
 
 <section class="contact">
     <div class="container">
-        <h2 class="contact-title">Свяжитесь с нашей командой, Мы рады помочь</h2>
-        <!-- Один блок для центрирования -->
-        <div class="row d-flex align-items-center justify-content-between contact-info">
-            <!-- Левая часть с иконками, описанием и номерами телефонов -->
+        <div>
+            <h2 class="contact-title">Свяжитесь с нашей командой, Мы рады помочь</h2>
+        </div>
+
+        <div class="contact-info row d-flex align-items-center justify-content-between">
+
             <div class="col-md-6 mt-5">
-                <!-- Первый блок -->
+
                 <div class="mb-4">
                     <!-- Иконка слева -->
                     <div class="d-flex align-items-center">
@@ -95,7 +97,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Второй блок (дублирование кода первого блока) -->
+
                 <div class="mb-4">
                     <div class="d-flex align-items-center mb-3">
                         <svg width="50" height="46" viewBox="0 0 50 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,13 +110,15 @@
                         </div>
                     </div>
                 </div>
-                <!-- Третий блок (дублирование кода первого блока) -->
+
                 <div>
                     <div class="d-flex align-items-center mb-3">
-                        <svg width="40" height="46" viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div>
+                            <svg width="40" height="46" viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M20 0.602966C14.6976 0.608424 9.61416 2.4485 5.86479 5.71956C2.11542 8.99062 0.00627667 13.4256 2.1278e-05 18.0515C-0.00632943 21.8319 1.40908 25.5097 4.02911 28.5207C4.02911 28.5207 4.57456 29.1472 4.66365 29.2377L20 45.0175L35.3436 29.2297C35.4236 29.1457 35.9709 28.5207 35.9709 28.5207L35.9727 28.5159C38.5914 25.5062 40.0062 21.8301 40 18.0515C39.9937 13.4256 37.8846 8.99062 34.1352 5.71956C30.3858 2.4485 25.3024 0.608424 20 0.602966ZM20 24.3965C18.5616 24.3965 17.1555 24.0243 15.9595 23.3272C14.7635 22.63 13.8313 21.639 13.2809 20.4796C12.7304 19.3202 12.5864 18.0445 12.867 16.8137C13.1476 15.5829 13.8403 14.4523 14.8574 13.565C15.8745 12.6776 17.1704 12.0733 18.5812 11.8285C19.9919 11.5837 21.4542 11.7093 22.7831 12.1896C24.1121 12.6698 25.2479 13.4831 26.047 14.5265C26.8462 15.5699 27.2727 16.7966 27.2727 18.0515C27.2703 19.7337 26.5033 21.3463 25.1399 22.5358C23.7766 23.7252 21.9281 24.3944 20 24.3965Z"
                                   fill="#003F65"/>
                         </svg>
+                        </div>
                         <div class="ms-3">
                             <p class="contact-text fw-bold">Адреса</p>
                             <p class="contact-text">Москва, Большая Садовая ул., 5, корп. 1
@@ -131,19 +135,18 @@
                 </div>
             </div>
 
-            <!-- Правая часть с картами -->
-            <div class="col-md-6 d-grid align-items-center justify-content-center">
-                <div class="img-fluid mb-3">
-                    <iframe class="rounded-5"
+            <div class="col-md-5 ">
+                <div class="contact-frame mb-4">
+                    <iframe class="rounded-5 img-fluid "
                             src="https://yandex.ru/map-widget/v1/?ll=37.591710%2C55.769580&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozMzM4ODgxNjM1EkrQoNC-0YHRgdC40Y8sINCc0L7RgdC60LLQsCwg0JHQvtC70YzRiNCw0Y8g0KHQsNC00L7QstCw0Y8g0YPQu9C40YbQsCwgNdC6MSIKDeldFkIVDRRfQg%2C%2C&z=16.84"
-                            width="400" height="250" frameborder="1" allowfullscreen="true">
+                            width="600" height="450" frameborder="1" allowfullscreen="true">
                     </iframe>
                 </div>
 
-                <div class="img-fluid">
-                    <iframe class="rounded-5"
+                <div class="contact-frame ">
+                    <iframe class="rounded-5 img-fluid"
                             src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=30.316425%2C59.978224&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgozNzA3MDU5NzI0ElzQoNC-0YHRgdC40Y8sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQkNC_0YLQtdC60LDRgNGB0LrQsNGPINC90LDQsdC10YDQtdC20L3QsNGPLCAxOCIKDQqI8kEVtOlvQg%2C%2C&z=16.84"
-                            width="400" height="250" frameborder="1" allowfullscreen="true">
+                            width="600" height="450" frameborder="1" allowfullscreen="true">
                     </iframe>
                 </div>
             </div>
@@ -159,7 +162,6 @@
                     <h2>Форма обратной связи</h2>
                 </div>
 
-                <!-- Правая колонка с параграфом -->
                 <div class="">
                     <p class="choose-text">Если у Вас есть вопросы, которые Вы хотите задать нам в письменном виде, Вы
                         так
@@ -167,8 +169,8 @@
                         использовать форму обратной связи. Просто заполните форму, и мы подготовим для Вас ответ.</p>
                 </div>
             </div>
-            <!-- Левая колонка с формой обратной связи -->
-            <div class="choose-form col-md-6 mx-auto">
+
+            <div class="choose-form col-md-5">
                 <form class="" id="tg"
                       target="_blank"
                       action="https://formsubmit.co/ceo@ncimport.ru"
@@ -205,15 +207,14 @@
 </section>
 
 <section class="the-end row">
-    <img src="images/end.png" class="col-xl-12 img-fluid" alt="машины">
-
+    <img src="images/end.png" class="col-xxl-12 img-fluid" alt="машины">
 </section>
 
 <footer class="footer">
     <div class="container">
         <div class="row d-flex justify-content-between align-items-center">
-            <!-- Первый столбец (ссылки на страницы) -->
-            <div class="col-md-3 col-sm mx-auto">
+
+            <div class="footer-info col-md-3 col-sm mx-auto">
                 <ul class="list-unstyled">
                     <li><a class="text-decoration-none text-white" href="index.html">Главная</a></li>
                     <li><a class="text-decoration-none text-white" href="page_2.html">О нас</a></li>
@@ -222,8 +223,8 @@
                     <li><a class="text-decoration-none text-white" href="#">Контакты</a></li>
                 </ul>
             </div>
-            <!-- Второй столбец (адрес, телефон, почта) -->
-            <div class="col-md-3 col-sm mx-auto">
+
+            <div class="footer-info col-md-3 col-sm mx-auto">
                 <ul class="list-unstyled">
                     <li><a class="text-decoration-none text-white" href="page_5.html">Москва, Большая Садовая ул., 5, корп. 1
                         <br>
@@ -237,7 +238,6 @@
                 </ul>
             </div>
 
-            <!-- Третий столбец (социальные сети) -->
             <div class="socials col-md-6 d-flex flex-column align-items-center col-sm mx-auto">
                 <div class="d-flex flex-wrap justify-content-center">
                     <div class="col-6 col-md-6 mb-2 col-sm mx-auto text-center">
@@ -278,15 +278,14 @@
                     <div class="col-6 col-md-6 mb-2 col-sm mx-auto text-center">
                         <a href="mailto:ceo@ncimport.ru" target="_blank" class="social-icon">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="25" cy="25" r="25" fill="#003F65"/>
-                                <path d="M42.5 18.5963V34.0461C42.5 36.7171 40.3355 38.8816 37.6645 38.8816H12.3355C11.0531 38.8816 9.82313 38.3721 8.91629 37.4653C8.00946 36.5584 7.5 35.3285 7.5 34.0461V18.5963L24.4455 27.9174C24.7909 28.1071 25.21 28.1071 25.5545 27.9174L42.5 18.5963ZM37.6645 11.25C38.9268 11.2501 40.139 11.7438 41.0421 12.6257C41.9453 13.5075 42.4679 14.7076 42.4982 15.9695L25 25.5945L7.50184 15.9686L7.50368 15.8857C7.55527 14.6388 8.0869 13.4601 8.98742 12.5962C9.88793 11.7322 11.0876 11.2499 12.3355 11.25H37.6645Z" fill="white"/>
+                                <circle cx="25" cy="25" r="25" fill="#ffffff"/>
+                                <path d="M42.5 18.5963V34.0461C42.5 36.7171 40.3355 38.8816 37.6645 38.8816H12.3355C11.0531 38.8816 9.82313 38.3721 8.91629 37.4653C8.00946 36.5584 7.5 35.3285 7.5 34.0461V18.5963L24.4455 27.9174C24.7909 28.1071 25.21 28.1071 25.5545 27.9174L42.5 18.5963ZM37.6645 11.25C38.9268 11.2501 40.139 11.7438 41.0421 12.6257C41.9453 13.5075 42.4679 14.7076 42.4982 15.9695L25 25.5945L7.50184 15.9686L7.50368 15.8857C7.55527 14.6388 8.0869 13.4601 8.98742 12.5962C9.88793 11.7322 11.0876 11.2499 12.3355 11.25H37.6645Z" fill="#04649E"/>
                             </svg>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <!-- Четвертый столбец (QR-код) -->
             <div class="col-md-3 col-sm mx-auto text-center">
                 <svg class="qr-code img-fluid" width="150" height="150" viewBox="0 0 200 200" fill="none"
                      xmlns="http://www.w3.org/2000/svg">

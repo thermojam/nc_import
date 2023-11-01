@@ -1,8 +1,13 @@
+:root {
+    --bg-offset-x: 0px;
+    --bg-offset-y: 0px;
+}
+
 .main-contact {
-    padding: 30px 0 280px 0;
+    padding: 60px 0 180px 0;
     background-image: url('../images/arrow.png');
+    background-position: calc(50% - var(--bg-offset-x)) calc(90% + var(--bg-offset-y));
     background-size: cover;
-    background-position: center;
 }
 
 .main-contact-title {
@@ -20,7 +25,7 @@
 
 /*contact*/
 .contact {
-    padding: 60px 0 100px 0;
+    padding: 60px 0 80px 0;
 }
 
 .contact-info {
@@ -45,9 +50,9 @@
     font-size: 16px;
 }
 
-/*choose*/
+    /*choose*/
 .choose {
-    padding: 30px 0 80px 0;
+    padding: 60px 0 80px 0;
     background: #F4F4F4;
 }
 
@@ -69,12 +74,12 @@
     box-shadow: 0 0 40px -5px #8D8D8D;
     border-radius: 50px;
     color: #FFFFFF;
-    max-width: 400px;
+    /*max-width: 450px;*/
 }
 
 .choose-input {
     border-radius: 50px;
-    max-width: 400px;
+    /*max-width: 400px;*/
 }
 
 .choose-input::placeholder {
