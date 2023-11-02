@@ -62,27 +62,26 @@
     background-image: url('../images/main.png');
     background-position: calc(50% - var(--bg-offset-x)) calc(90% - var(--bg-offset-y));
     background-size: cover;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     padding: 200px 0 250px 0;
 }
 
 .main-title {
-   margin-top: 105px;
-    /*max-width: 670px;*/
+    margin-top: 105px;
     font-family: Evolventa-BoldOblique, sans-serif;
     color: #FFF;
     font-size: 58px;
 }
 
 .main-description {
-    margin-top: 40px;
+    margin-top: 20px;
     color: #FFF;
     font-family: Evolventa-Oblique, sans-serif;
     font-size: 28px;
 }
 
 .main-action {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 

@@ -10,6 +10,16 @@
     }
 }
 
+/*1400 - 1900*/
+@media screen  and (max-width: 1450px) {
+    .btn-group {
+        position: absolute;
+        right: 223px;
+    }
+
+}
+
+
 /*1200 - 1399 (XL)*/
 @media screen  and (max-width: 1399px) {
     .main-gallery-title {
