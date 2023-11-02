@@ -4,7 +4,7 @@
 }
 
 .main-contact {
-    padding: 60px 0 180px 0;
+    padding: 60px 0 80px 0;
     background-image: url('../images/arrow.png');
     background-position: calc(50% - var(--bg-offset-x)) calc(90% + var(--bg-offset-y));
     background-size: cover;
@@ -29,7 +29,7 @@
 }
 
 .contact-info {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .contact-title {
@@ -50,6 +50,10 @@
     font-size: 16px;
 }
 
+iframe {
+    width: 90%;
+}
+
     /*choose*/
 .choose {
     padding: 60px 0 80px 0;
@@ -67,6 +71,7 @@
     color: #232628;
     font-family: Nunito-Regular, sans-serif;
     font-size: 20px;
+    max-width: 500px;
 }
 
 .choose-form {
@@ -74,12 +79,12 @@
     box-shadow: 0 0 40px -5px #8D8D8D;
     border-radius: 50px;
     color: #FFFFFF;
-    /*max-width: 450px;*/
+    max-width: 500px;
 }
 
 .choose-input {
     border-radius: 50px;
-    /*max-width: 400px;*/
+    max-width: 300px;
 }
 
 .choose-input::placeholder {
@@ -90,7 +95,7 @@
 }
 
 .choose-btn {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .btn {
