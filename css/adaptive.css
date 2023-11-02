@@ -117,6 +117,24 @@
         text-align: center;
     }
 
+    /*footer*/
+    .footer-info {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .socials {
+        margin-bottom: 30px;
+
+    }
+
+    .qr-code {
+        margin-bottom: 30px;
+
+    }
+
 
     .overlay {
         display: none;
