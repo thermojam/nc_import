@@ -140,6 +140,11 @@
         background-position: calc(85% - var(--bg-offset-x)) calc(-10% - var(--bg-offset-y));
     }
 
+    .main-info {
+        position: relative;
+        top: -240px;
+    }
+
     /*ABOUT US*/
     /*GALLERY*/
     .main-gallery {
@@ -216,6 +221,11 @@
     .main {
         background-position: calc(90% - var(--bg-offset-x)) calc(40% - var(--bg-offset-y));
         background-size: calc(260% - var(--bg-offset-x)) calc(100% - var(--bg-offset-y));
+    }
+
+    .main-info {
+        position: relative;
+        top: -180px;
     }
 
     .main-info {
