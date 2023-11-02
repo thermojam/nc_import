@@ -112,9 +112,10 @@
 .btn-group {
     overflow-x: scroll;
     position: absolute;
-    right: 50px;
+    right: 400px;
     font-family: Nunito-Regular, sans-serif;
     font-size: 10px;
+
 }
 
 label.btn {

@@ -10,6 +10,12 @@
     .main-gallery-title {
         font-size: 30px;
     }
+
+    .btn-group {
+        position: absolute;
+        right: 7px;
+    }
+
 }
 
 
@@ -150,7 +156,7 @@
         margin-top: 30px;
     }
 
-        /*footer*/
+    /*footer*/
     .footer-info {
         display: flex;
         justify-content: center;
@@ -247,6 +253,8 @@
     .option-text {
         font-size: 10px;
     }
+
+
 
     /*INSURANCE*/
     .main-insurance-description {

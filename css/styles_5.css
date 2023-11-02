@@ -84,7 +84,6 @@ iframe {
 
 .choose-input {
     border-radius: 50px;
-    max-width: 300px;
 }
 
 .choose-input::placeholder {
