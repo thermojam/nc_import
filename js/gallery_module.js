@@ -1,3 +1,4 @@
+//filter
 // Получаем все элементы с классом "car"
 const cars = document.querySelectorAll('.car');
 

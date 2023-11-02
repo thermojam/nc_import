@@ -25,6 +25,8 @@
 
 /*gallery-options*/
 .gallery-options {
+    /*test*/
+    position: relative;
     padding: 30px 0 120px 0;
 }
 
@@ -68,13 +70,14 @@
 }
 
 .car-list {
-    display: none;
+    /*test*/
     position: absolute;
+    display: none;
     background-color: #fff;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     padding: 10px;
-    max-height: 200px;
-    overflow-y: auto;
+    /*max-height: 200px;*/
+    /*overflow-y: auto;*/
 }
 
 /*gallery-cars*/
