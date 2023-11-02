@@ -110,7 +110,6 @@
 }
 /*test*/
 .btn-group {
-    overflow-x: scroll;
     position: absolute;
     right: 400px;
     font-family: Nunito-Regular, sans-serif;

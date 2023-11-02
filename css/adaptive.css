@@ -3,6 +3,11 @@
     .review-icon {
         display: none;
     }
+
+    .btn-group {
+        position: absolute;
+        right: 718px;
+    }
 }
 
 /*1200 - 1399 (XL)*/
